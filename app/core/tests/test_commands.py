@@ -6,6 +6,7 @@ from django.test import TestCase
 
 
 class CommandTests(TestCase):
+    
     def test_wait_for_db_ready(self):
         """Test waiting for db when db is available"""
 
